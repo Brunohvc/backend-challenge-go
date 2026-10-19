@@ -1,0 +1,6 @@
+*
+!go.mod
+!go.sum
+!internal/platform/idgen/idgen.go
+!test/load/*.go
+test/load/*_test.go

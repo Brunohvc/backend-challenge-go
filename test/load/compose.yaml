@@ -1,0 +1,15 @@
+services:
+  load:
+    build:
+      context: .
+      dockerfile: test/load/Dockerfile
+    image: backend-challenge-go/load:local
+    pull_policy: never
+    profiles: ["load"]
+    environment:
+      AWS_ENDPOINT_URL: http://ministack:4566
+      AWS_REGION: us-east-1
+      AWS_SHARED_CREDENTIALS_FILE: /run/aws/credentials
+    volumes:
+      - aws-shared:/run/aws:ro
+      - ./tmp/load:/out

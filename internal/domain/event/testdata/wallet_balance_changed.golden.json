@@ -1,0 +1,18 @@
+{
+  "eventId": "0192f2a0-1b7e-7c11-9a3e-2f0c1d4e5a6b",
+  "eventType": "WalletBalanceChanged",
+  "aggregateId": "0192f291-27dd-7d3f-8071-5f8685deef37",
+  "correlationId": "c-0192f298-345e",
+  "causationId": "0192f298-345e-7e38-af88-e43f851a819d",
+  "occurredAt": "2026-09-08T12:00:00.123Z",
+  "version": 1,
+  "data": {
+    "walletId": "0192f291-27dd-7d3f-8071-5f8685deef37",
+    "transactionId": "0192f298-345e-7e38-af88-e43f851a819d",
+    "direction": "DEBIT",
+    "money": { "amount": "25.00", "currency": "BRL" },
+    "balanceBefore": { "amount": "1000.00", "currency": "BRL" },
+    "balanceAfter": { "amount": "975.00", "currency": "BRL" },
+    "walletVersion": 2
+  }
+}

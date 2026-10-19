@@ -1,0 +1,1 @@
+DROP INDEX CONCURRENTLY ix_outbox_due;

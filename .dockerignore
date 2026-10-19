@@ -1,0 +1,13 @@
+**/.*
+
+Dockerfile
+docker-compose*.yml
+Makefile
+docs/
+deploy/
+test/
+tmp/
+
+**/*.md
+**/*_test.go
+**/testdata/
